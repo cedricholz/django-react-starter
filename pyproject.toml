@@ -1,0 +1,15 @@
+# Python Black and isort configuration
+
+[tool.black]
+line-length = 88  # Adjust the maximum line length (default is 88)
+target-version = ['py311']  # Specify the target Python version
+skip-string-normalization = false  # Don't normalize string quotes
+exclude = '\.git|\.mypy_cache|\.pytest_cache|\.tox|venv|__pycache__'  # Folders to exclude
+
+[tool.isort]
+profile = "black"  # Ensures compatibility with Black
+multi_line_output = 3  # Forces each import to be on a separate line
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
