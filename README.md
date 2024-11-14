@@ -2,7 +2,12 @@
 
 ---
 
-## Get Started
+## Name Change
+
+Change the name of django-react-starter and djangoreactstarter to the name of your new git repo and project.
+Make sure to keep with the naming convention.
+
+## Installation
 
 ```
 pip install pipenv
