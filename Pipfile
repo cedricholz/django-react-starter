@@ -9,11 +9,19 @@ whitenoise="*"
 python-decouple="*"
 requests="*"
 psycopg2="*"
+djangorestframework="*"
+djangorestframework-simplejwt="*"
+django-solo="*"
+django-storages="*"
+django-cors-headers="*"
+django-filter="*"
+django-positions="*"
+boto3="*"
 
 [dev-packages]
 black="*"
-isort = "*"
-pytest = "*"
+isort="*"
+pytest="*"
 
 [requires]
 python_version = "3.11"
